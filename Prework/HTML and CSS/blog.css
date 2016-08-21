@@ -1,0 +1,87 @@
+header {
+  color: sandybrown;
+  font-family: Cambria, Georgia, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-family: serif;
+}
+
+article {
+  background-color: lightgrey;
+  padding: 30px 10px;
+  border-top: 5px solid white;
+  color: white;
+  font-size: 10px;
+  font-style: italic;
+  width: 50%;
+}
+
+body {
+  background-color: grey;
+  font-family: "Baskerville";
+}
+
+.niceParagraph {
+  background-color: #888800;
+  font-family: "Baskerville";
+}
+
+.articleContainer{
+  width: 50%;
+  padding 0xp 0xp;
+}
+
+#finalParagraph {
+  background-color: white;
+  font-family: "Baskerville";
+}
+
+footer {
+  background-color: #444444;
+  padding: 30px 10px;
+  border-top: 5px solid white;
+  color: white;
+  font-size: 10px;
+  font-style: italic;
+  width: 100%;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+` color: #CCCCCC;
+}
+
+a:hover {
+  color: #999999;
+}
+
+.articleContainer {
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+header:hover {
+    background-color: white;
+}
+
+.postAuthor {
+  font-size: 20px;
+}
+
+.shadowedBox {
+  box-shadow: 10px 5px 5px #888888;
+}
+
+.centeredElement {
+  width: 50%;
+  margin: auto;
+}

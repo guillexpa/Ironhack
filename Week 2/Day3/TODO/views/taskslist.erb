@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TO-DO List</title>
+</head>
+<body>
+  <h1>TO DO List</h1>
+
+  <%@list.each do |task|%>
+    <a href="/complete_task/ <%= task.id %>"><%= task.content %></a>
+    <% if task.id == @task.id%>
+        <p> completed </p>
+    <%end%>
+    <br>
+  <%end%>
+
+</body>
+</html>

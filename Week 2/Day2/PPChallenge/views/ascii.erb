@@ -1,0 +1,8 @@
+<!-- <h1>Hello</h1> -->
+<% if @font == nil
+      @font = 'slant'
+    end
+
+word = Artii::Base.new(:font => @font) %>
+
+<pre><%= word.asciify(@word) %></pre>

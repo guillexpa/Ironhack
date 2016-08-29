@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>Which film was filmed in <%= @movie[@index].year%>?</h2>
+    <% @movie.each do |movie| %>
+      <% if movie.year == @movie[@index].year %>
+        <img style='height: 20%; width: 20%' src="<%= movie.poster%>" onClick="alert('DE PUTA MADRE TRON!!! CORRECTO!')"/>
+      <%else%>
+        <img style='height: 20%; width: 20%' src="<%= movie.poster%>" onClick="alert('Nein')"/>
+      <%end%>
+    <%end%>
+
+  </body>
+</html>

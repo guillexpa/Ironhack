@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+</head>
+<body>
+  <h1>MASTER OF POSTS, FUCK YEEEAH!!!!!1</h1>
+  <br>
+  <%@posts.each_with_index do |post, index|%>
+    <a href="/post_details/<%=index%>"><%= post.title %></a>
+    <br>
+  <%end%>
+    <a href="/new_post">Create new post</a>  
+</body>
+</html>
